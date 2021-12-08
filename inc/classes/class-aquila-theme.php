@@ -69,5 +69,12 @@ class AQUILA_THEME
         add_editor_style();
         // Support for wp-block styles
         add_theme_support( 'wp-block-styles' );
+        // Add wide and full-width image support
+        add_theme_support( 'align-wide' );
+        // Set global content width
+        global $content_width;
+        if(!isset($content_width)){
+            $content_width = 1600;
+        }
     }
 }
