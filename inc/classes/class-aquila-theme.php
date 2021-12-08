@@ -53,5 +53,21 @@ class AQUILA_THEME
         add_theme_support( 'post-thumbnails' );
         // Add support for selective refresh
         add_theme_support( 'customize-selective-refresh-widgets' );
+        // Add support for feeds
+        add_theme_support( 'automatic-feed-links' );
+        // Add support for HTML5 
+        add_theme_support( 'html5', [
+            'search-form',
+            'comment-form',
+            'comment-list',
+            'gallery',
+            'caption',
+            'script',
+            'style',
+        ] );
+        // Add editor theme support
+        add_editor_style();
+        // Support for wp-block styles
+        add_theme_support( 'wp-block-styles' );
     }
 }
