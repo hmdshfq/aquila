@@ -49,5 +49,7 @@ class AQUILA_THEME
             'default-image' => '',
             'default-repeat' => 'no-repeat',
         ] );
+        // Add post thumbnails support
+        add_theme_support( 'post-thumbnails' );
     }
 }
