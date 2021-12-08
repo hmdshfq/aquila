@@ -42,6 +42,6 @@ class AQUILA_THEME
             // Flex-height and width enables logo cropping
             'flex-height' => true,
             'flex-width' => true,
-        ])
+        ]);
     }
 }
