@@ -52,3 +52,9 @@
         </div>
     </div>
 </nav>
+<?php 
+wp_nav_menu( [
+    'theme_location' => 'aquila-header-menu',
+    'container_class' => 'aquila-header-menu',
+] );
+?>
