@@ -51,5 +51,7 @@ class AQUILA_THEME
         ] );
         // Add post thumbnails support
         add_theme_support( 'post-thumbnails' );
+        // Add support for selective refresh
+        add_theme_support( 'customize-selective-refresh-widgets' );
     }
 }
